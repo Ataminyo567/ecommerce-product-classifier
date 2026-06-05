@@ -1,4 +1,4 @@
-E-commerce Product Classification
+A deep learning CNN-based image classification system for e-commerce products
 Overview
 
 This project uses a Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify e-commerce product images into their respective product categories.
@@ -35,3 +35,9 @@ Download the trained model from the Google Drive link above.
 Place the model in the models folder.
 Run the notebook or deployment application.
 Upload a product image and obtain a category prediction.
+
+HOW TO RUN MODEL
+
+model = load_model("models/cnn_model.keras")
+img = preprocess(image)
+prediction = model.predict(img)
