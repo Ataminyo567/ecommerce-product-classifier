@@ -1,5 +1,4 @@
-streamlit
+gradio
+tensorflow==2.15.0
 numpy
 pillow
-plotly
-requests
